@@ -8,9 +8,12 @@ var getJSON = require("get-json");
 
 var args = process.argv;
 
+
+
 if (args.length < 5) {
 	throw "not enough arguments: i18n-translate apiKey startDir sourceLang (targetLang1,targetLang2,..) (file1,file2,..)";
 }
+
 
 // get the start directory from parameters
 var apiKey = args[2];

@@ -48,6 +48,8 @@ var run = function(apiKey, dir, sourceLanguage, languages, finish) {
   // PROCESS FILE
   var processFile = function(file, callback) {
 
+    console.log('xxx');
+
     // open file
     fs.readFile(dir + file, function(err, data) {
 

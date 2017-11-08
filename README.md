@@ -1,3 +1,7 @@
+# ToDO
+
+https://medium.freecodecamp.org/writing-command-line-applications-in-nodejs-2cf8327eee2
+
 # i18n-translate-json
 
 Automatically translates node-i18n JSON files into different languages via Google Translate API.
